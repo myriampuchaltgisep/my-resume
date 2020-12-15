@@ -1,0 +1,97 @@
+html {
+  background:rgb(0, 0, 0);
+}
+
+header #nav-wrap {
+  font-size: bold;
+  letter-spacing: 1.5px;
+  margin-top: 50px;
+}
+
+header #nav-wrap .nav{
+  margin-left: 60%;
+}
+
+header #nav-wrap .name {
+  color: #fff;
+  float: left;
+}
+
+header ul#nav li {
+    display: inline-block;
+ }
+ 
+header ul#nav li a {
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #fff;
+ }
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 0 0 3px 6px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#profile-picture img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.description {
+  margin: 35% 0 0 40%;
+}
+
+.description-text h3 {
+  color: #a8a8a8;
+  font-size: 2em;
+  margin: 0 auto;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.description-text h3 span {
+  color:rgb(29, 216, 110);
+  font-size: 1.5em;
+}
+
+footer {
+  padding-top: 48px;
+  margin-bottom: 48px;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+}
+
+footer .contactDetails {
+  float: left;
+}
+
+/* social links */
+footer .social-links {
+  margin: -30px 0 0 0;
+  padding: 30px;
+  font-size: 30px;
+  float: right;
+}
+footer .social-links li {
+   display: block;
+}
+
+footer .social-links li .icon{
+   color: #434242bf;
+}
+
+footer .social-links li:first-child { margin-left: 0; }

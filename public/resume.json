@@ -1,0 +1,24 @@
+{
+  "name": "Myriam Puchalt",
+  "email": "myriam.puchalt@icloud.com",
+  "description": "Hello, I'm",
+  "description0": "a full stack Web Developer based in London",
+  "description1": "A fast learning, competent person able to solve problems",
+  "description2": "Hard-working, with the ability to work with a high degree of autonomy but also work in a team environment.",
+  "description3": "I am keen on a career in development and am confident that I have all of the skills needed to make a real success of it.",
+  "description4": "With a passion to learn, motivated, self-confident and with great communication skills.",
+  "description5": "Very organised, able to multi-task and also great at time management.",
+  "education": [],
+  "experience": [],
+  "skills": [],
+  "social":[
+    {
+      "name":"linkedin",
+      "url":"https://www.linkedin.com/in/myriampuchalt/"
+    },
+    {
+      "name":"github",
+      "url":"http://github.com/myriampuchaltgisep"
+    }
+  ]
+}
