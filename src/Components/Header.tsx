@@ -1,33 +1,42 @@
-const Header = () => {
-  const headerSections = {
-    aboutme: "About Me",
-    education: "Education",
-    skills: "Skills",
-    experience: "Experience",
-    // languages: "Languages",
-    contact: "Contact",
-  };
+import PropTypes from 'prop-types';
+interface HeaderProps {
+  content: any;
+}
+const Header = ({ content }: HeaderProps) => {
+
+  let headerSections;
+
+  console.log(content);
+
+  if (content) {
+    headerSections = Object.entries(content).map(([key, value]) => {
+      return (
+        <li key={key}>
+          <a href={`#${key}`}>
+            {value}
+            <i className="arrow down"></i>
+          </a>
+        </li>
+      );
+    })
+  }
+
   return (
     <header>
       <nav id="nav-wrap">
-        {/* <ul id="name" className="name">
-        Myriam Puchalt
-      </ul> */}
         <ul id="nav" className="nav">
-          {Object.entries(headerSections).map(([key, value]) => {
-            return (
-              <li>
-                <a href={`#${key}`}>
-                  {value}
-                  <i className="arrow down"></i>
-                </a>
-              </li>
-            );
-          })}
+          {headerSections}
         </ul>
       </nav>
     </header>
   );
 };
+
+Header.propTypes = {
+  content: PropTypes.object
+}
+Header.defaultProps = {
+  content: {}
+}
 
 export default Header;

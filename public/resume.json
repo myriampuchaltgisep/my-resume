@@ -1,24 +1,105 @@
 {
-  "name": "Myriam Puchalt",
+  "home": {
+    "name": "Myriam Puchalt",
+    "welcome": [
+      "Hello, I'm",
+      "a full stack Web Developer based in London"
+    ],
+    "headerSections" : {
+      "resume": "Resume",
+      "contact": "Contact"
+    }
+  },
+  "resume": {
+    "description": [
+      "A fast learning, competent person able to solve problems. Very organised, able to multi-task and also great at time management.",
+      "Hard-working, with the ability to work with a high degree of autonomy but also work in a team environment.",
+      "With a passion to learn, motivated, self-confident and with great communication skills."
+    ],
+    "education": [
+      {
+        "school": "Polytechnic University. Valencia, Spain",
+        "degree": "BENG.,WEB DEVELOPMENT",
+        "duration": "2013-2016"
+      },
+      {
+        "school": "EFEM. Valencia, Spain",
+        "degree": "MSC., SMES ADMINISTRATION",
+        "duration": "2012-2013"
+      },
+      {
+        "school": "Fachhochschule. Düsseldorf,Germany",
+        "degree": "BENG.,KOMMUNICATIONSDESIGN",
+        "duration": "2011-2012"
+      },
+      {
+        "school": "Polytechnic University. Valencia, Spain",
+        "degree": "BENG.,INDUSTRIAL DESIGN",
+        "duration": "2008-2011"
+      }
+    ],
+    "experience": [
+      {
+        "company": "IBM",
+        "title": "Lead Developer",
+        "years": "April 2020 - Present",
+        "description": [
+          "Worked as an experienced developer for the `My Sales Activity` Squad, bringing expertise, guidance and mentoring to the less experience members of the team.",
+          "Developed a new Deal Registration Process for Software products using React and IBM's Carbon Design System. It allowed IBM's Business Partners to easily apply for software incentives and register their deals. The likelihood to recommend the product went from a 5.2/10 to a 7.2/10 because we took a design led approach when developing the application and it became easy to use and understand, intuitive and it also saved around 30' of time when using the tool.",
+          "Worked on the implementation of the Software Products Eligibility, which were the backbone of the functionality of the new programme, and gave partners a clear line of sight of what they were getting from IBM. This involved building a robust solution that wouldn't slow down the Deal Registration Process.",
+          "Was involved in the recruitment process"
+        ]
+      },
+      {
+        "company": "IBM",
+        "title": "Full Stack Software Developer",
+        "years": "Nov 2018 – April 2020",
+        "description": [
+          "Worked as an experienced developer for the `My Sales Activity` Squad, bringing expertise, guidance and mentoring to the less experience members of the team.",
+          "Developed a new Deal Registration Process for Software products using React and IBM's Carbon Design System. It allowed IBM's Business Partners to easily apply for software incentives and register their deals. The likelihood to recommend the product went from a 5.2/10 to a 7.2/10 because we took a design led approach when developing the application and it became easy to use and understand, intuitive and it also saved around 30' of time when using the tool.",
+          "Worked on the implementation of the Software Products Eligibility, which were the backbone of the functionality of the new programme, and gave partners a clear line of sight of what they were getting from IBM. This involved building a robust solution that wouldn't slow down the Deal Registration Process.",
+          "Was involved in the recruitment process"
+        ]
+      },
+      {
+        "company": "AnyVan",
+        "title": "Software Developer",
+        "years": "Feb 2017 – Nov 2018",
+        "description": [
+          "Worked on the integration with FreshDesk",
+          "Led the automated verification of our drivers' VAT Certificates",
+          "Built an internal Search Engine using Elasticsearch, PHP and AngularJS",
+          "Developed an internal platform for our drivers to upload their driving documents",
+          "Identified major IT issues and resolved them, saving 20h of support each week",
+          "Analysed the existing work-flow of our internal system to identify and implement operational improvements",
+          "Documented features and generated reports for stakeholders",
+          "Ensured business' expectations were met at every stage"
+        ]
+      },
+      {
+        "company": "WorldStores",
+        "title": "Support Developer",
+        "years": "June 2015 – Nov 2016",
+        "description": [
+          "Provided technical support on PHP & JS (Bug Fix & Development)",
+          "Wrote scripts to automate the execution of business repetitive tasks",
+          "Worked alongside the marketing team generating quality data feeds for Google Merchant Center",
+          "Created documentation for new starters, reducing the investigation time",
+          "Managed tasks among the team, making sure deadlines were met"
+        ]
+      }
+    ],
+    "skills": {}
+  },
   "email": "myriam.puchalt@icloud.com",
-  "description": "Hello, I'm",
-  "description0": "a full stack Web Developer based in London",
-  "description1": "A fast learning, competent person able to solve problems",
-  "description2": "Hard-working, with the ability to work with a high degree of autonomy but also work in a team environment.",
-  "description3": "I am keen on a career in development and am confident that I have all of the skills needed to make a real success of it.",
-  "description4": "With a passion to learn, motivated, self-confident and with great communication skills.",
-  "description5": "Very organised, able to multi-task and also great at time management.",
-  "education": [],
-  "experience": [],
-  "skills": [],
-  "social":[
+  "social": [
     {
-      "name":"linkedin",
-      "url":"https://www.linkedin.com/in/myriampuchalt/"
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/myriampuchalt/"
     },
     {
-      "name":"github",
-      "url":"http://github.com/myriampuchaltgisep"
+      "name": "github",
+      "url": "http://github.com/myriampuchaltgisep"
     }
   ]
 }
