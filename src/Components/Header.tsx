@@ -1,42 +1,42 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 interface HeaderProps {
   content: any;
 }
 const Header = ({ content }: HeaderProps) => {
-
   let headerSections;
-
-  console.log(content);
 
   if (content) {
     headerSections = Object.entries(content).map(([key, value]) => {
       return (
-        <li key={key}>
-          <a href={`#${key}`}>
-            {value}
-            <i className="arrow down"></i>
-          </a>
-        </li>
+        <Nav.Link href={`#${key}`}>
+          {value}
+          <i className="arrow down"></i>
+        </Nav.Link>
       );
-    })
+    });
   }
 
   return (
     <header>
-      <nav id="nav-wrap">
-        <ul id="nav" className="nav">
-          {headerSections}
-        </ul>
-      </nav>
+      <Navbar id="nav-wrap" expand="lg">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav id="nav" className="mr-auto">
+            {headerSections}
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </header>
   );
 };
 
 Header.propTypes = {
-  content: PropTypes.object
-}
+  content: PropTypes.object,
+};
 Header.defaultProps = {
-  content: {}
-}
+  content: {},
+};
 
 export default Header;

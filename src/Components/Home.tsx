@@ -1,19 +1,18 @@
 import Header from "./Header";
 import WelcomeMessage from "./WelcomeMessage";
 import PropTypes from "prop-types";
-
+import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/Container";
 interface HomeProps {
   content: any;
 }
 const Home = ({ content }: HomeProps) => {
   return (
-    <section id="aboutme">
-      <Header content={content.headerSections} ></Header>
-      <div id="profile-picture">
-        <img src={process.env.PUBLIC_URL + "/images/me.jpg"} alt="profile" />
-      </div>
+    <Container id="home" fluid>
+      <Header content={content.headerSections}></Header>
+      <Image src={process.env.PUBLIC_URL + "/images/me.jpg"} />
       <WelcomeMessage content={content}></WelcomeMessage>
-    </section>
+    </Container>
   );
 };
 

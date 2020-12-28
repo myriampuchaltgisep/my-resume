@@ -31,7 +31,6 @@ class App extends Component<Props, any> {
       <div className="App">
         <Home content={this.state.data.home} />
         <Resume content={this.state.data.resume}></Resume>
-        {/* <Contact content={this.state.data}></Contact> */}
         <Footer content={this.state.data}></Footer>
       </div>
     );
