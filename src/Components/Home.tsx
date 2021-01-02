@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "./Header";
 import WelcomeMessage from "./WelcomeMessage";
 import PropTypes from "prop-types";
@@ -10,7 +11,7 @@ const Home = ({ content }: HomeProps) => {
   return (
     <Container id="home" fluid>
       <Header content={content.headerSections}></Header>
-      <Image src={process.env.PUBLIC_URL + "/images/me.jpg"} />
+      <Image src={process.env.PUBLIC_URL + "/images/me.jpg"} className="mh-100 position-absolute fixed-top"/>
       <WelcomeMessage content={content}></WelcomeMessage>
     </Container>
   );

@@ -1,5 +1,4 @@
-import "./App.css";
-import { Component } from "react";
+import React, { Component } from "react";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
@@ -31,7 +30,6 @@ class App extends Component<Props, any> {
       <div className="App">
         <Home content={this.state.data.home} />
         <Resume content={this.state.data.resume}></Resume>
-        <Footer content={this.state.data}></Footer>
       </div>
     );
   }

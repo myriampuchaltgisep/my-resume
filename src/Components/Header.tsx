@@ -1,3 +1,4 @@
+import React from "react";
 import PropTypes from "prop-types";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -10,9 +11,9 @@ const Header = ({ content }: HeaderProps) => {
   if (content) {
     headerSections = Object.entries(content).map(([key, value]) => {
       return (
-        <Nav.Link href={`#${key}`}>
+        <Nav.Link href={`#${key}`} className="text-white">
           {value}
-          <i className="arrow down"></i>
+          <i className="arrow down p-1 mb-1 ml-2 d-inline-block border border-white border-left-0 border-top-0"></i>
         </Nav.Link>
       );
     });
@@ -20,7 +21,7 @@ const Header = ({ content }: HeaderProps) => {
 
   return (
     <header>
-      <Navbar id="nav-wrap" expand="lg">
+      <Navbar id="nav-wrap" expand="lg" className="pt-5">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav id="nav" className="mr-auto">
