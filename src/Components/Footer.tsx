@@ -1,29 +1,44 @@
+import React from "react";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import ListGroup from "react-bootstrap/ListGroup";
+import Button from "react-bootstrap/Button";
 
 interface FooterProps {
   content: any;
 }
 const Footer = ({ content }: FooterProps) => {
-  let networks = "";
+  let socialNetworks = "";
 
-  if (content.social) {
-    networks = content.social.map(function (network: any) {
+  if (content) {
+    socialNetworks = content.map(function (network: any) {
       return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <FontAwesomeIcon icon={["fab", network.name]} className="icon"/>
-          </a>
-        </li>
+        <ListGroup.Item className="d-block border-0">
+          <Button href={network.url} variant="link">
+            <FontAwesomeIcon icon={["fab", network.name]} className="icon" />
+          </Button>
+        </ListGroup.Item>
       );
     });
   }
 
   return (
     <footer>
-      <div className="contactDetails">
-      </div>
-      <ul className="social-links">{networks}</ul>
+      <ul>
+        <ListGroup>
+          <ListGroup.Item className="border-0">
+            <FontAwesomeIcon icon={faBars} className="icon float-right" />
+          </ListGroup.Item>
+          <ListGroup.Item
+            className="rotate border-0 font-weight-bold"
+            href="#home"
+          >
+            HOME
+          </ListGroup.Item>
+        </ListGroup>
+        <ListGroup className="social">{socialNetworks}</ListGroup>
+      </ul>
     </footer>
   );
 };

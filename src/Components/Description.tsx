@@ -1,24 +1,35 @@
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
+import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/Container";
 
 interface DescriptionProps {
-  content: any;
+  content: Array<string>;
 }
 const Description = ({ content }: DescriptionProps) => {
+  let description;
+
+  if (content) {
+    description = content.map(function (line: any) {
+      return <p className="m-0">{line}</p>;
+    });
+  }
+
   return (
-    <div className="description">
-      <div className="description-text">
-        <h3>{content.description} <span>{content.name}</span></h3>
-        <h3>{content.description0}</h3>
+    <div id="description">
+      <Image src={process.env.PUBLIC_URL + "/images/my-emoji.png"} className="my-2 mx-4 float-left"/>
+      <div className="text font-weight-bold py-4">
+        {description}
       </div>
     </div>
   );
 };
 
 Description.propTypes = {
-  content: PropTypes.string
-}
+  content: PropTypes.array,
+};
 Description.defaultProps = {
-  content: ''
-}
+  content: [],
+};
 
 export default Description;

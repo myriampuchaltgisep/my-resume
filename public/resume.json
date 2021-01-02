@@ -1,40 +1,40 @@
 {
   "home": {
     "name": "Myriam Puchalt",
+    "email": "myriam.puchalt@icloud.com",
     "welcome": [
       "Hello, I'm",
       "a full stack Web Developer based in London"
     ],
     "headerSections" : {
-      "resume": "Resume",
-      "contact": "Contact"
+      "resume": "Resume"
     }
   },
   "resume": {
     "description": [
       "A fast learning, competent person able to solve problems. Very organised, able to multi-task and also great at time management.",
-      "Hard-working, with the ability to work with a high degree of autonomy but also work in a team environment.",
+      "Hard-working, with the ability to work with a high degree of autonomy but also in a team environment.",
       "With a passion to learn, motivated, self-confident and with great communication skills."
     ],
     "education": [
       {
         "school": "Polytechnic University. Valencia, Spain",
-        "degree": "BENG.,WEB DEVELOPMENT",
+        "degree": "Beng.,Web Development",
         "duration": "2013-2016"
       },
       {
         "school": "EFEM. Valencia, Spain",
-        "degree": "MSC., SMES ADMINISTRATION",
+        "degree": "Msc., SMES Administration",
         "duration": "2012-2013"
       },
       {
         "school": "Fachhochschule. Düsseldorf,Germany",
-        "degree": "BENG.,KOMMUNICATIONSDESIGN",
+        "degree": "Beng.,Kommunicationsdesign",
         "duration": "2011-2012"
       },
       {
         "school": "Polytechnic University. Valencia, Spain",
-        "degree": "BENG.,INDUSTRIAL DESIGN",
+        "degree": "Beng.,Industrial Design",
         "duration": "2008-2011"
       }
     ],
@@ -42,29 +42,30 @@
       {
         "company": "IBM",
         "title": "Lead Developer",
-        "years": "April 2020 - Present",
+        "duration": "April 2020 - Present",
         "description": [
-          "Worked as an experienced developer for the `My Sales Activity` Squad, bringing expertise, guidance and mentoring to the less experience members of the team.",
-          "Developed a new Deal Registration Process for Software products using React and IBM's Carbon Design System. It allowed IBM's Business Partners to easily apply for software incentives and register their deals. The likelihood to recommend the product went from a 5.2/10 to a 7.2/10 because we took a design led approach when developing the application and it became easy to use and understand, intuitive and it also saved around 30' of time when using the tool.",
-          "Worked on the implementation of the Software Products Eligibility, which were the backbone of the functionality of the new programme, and gave partners a clear line of sight of what they were getting from IBM. This involved building a robust solution that wouldn't slow down the Deal Registration Process.",
-          "Was involved in the recruitment process"
+          "Led the IBMid Migration from IDaaS to IBM Cloud Identity, which involved replacing the underlying authentication service component of IBMid, IDaaS, by the commercial service: Cloud Identity. I managed the technical work, coordinated with teams in Mexico and India and deployed the changes without issues",
+          "Led the transition into London of an old .NET project that triggered PagerDuty Alerts nearly every day. After 2 month of owning the project the errors got reduced by a 95%, saving development time and leaving only external dependencies as the main trigger for alerts",
+          "Trained to become a Software `Craftwoman` and advised others how to deliver good work, focusing on DDD, CI/CD best practices and Extreme Programming values, principles and practices",
+          "Introduced Spotify Squad Health Check to the team and analysed 11 dimensions, improving the Squad Health by a 40% in only 4 months",
+          "Created an efficient Squad, led by trust, transparency and hard work, where people felt safe to speak up and where team work is the main core value"
         ]
       },
       {
         "company": "IBM",
         "title": "Full Stack Software Developer",
-        "years": "Nov 2018 – April 2020",
+        "duration": "Nov 2018 – April 2020",
         "description": [
-          "Worked as an experienced developer for the `My Sales Activity` Squad, bringing expertise, guidance and mentoring to the less experience members of the team.",
-          "Developed a new Deal Registration Process for Software products using React and IBM's Carbon Design System. It allowed IBM's Business Partners to easily apply for software incentives and register their deals. The likelihood to recommend the product went from a 5.2/10 to a 7.2/10 because we took a design led approach when developing the application and it became easy to use and understand, intuitive and it also saved around 30' of time when using the tool.",
-          "Worked on the implementation of the Software Products Eligibility, which were the backbone of the functionality of the new programme, and gave partners a clear line of sight of what they were getting from IBM. This involved building a robust solution that wouldn't slow down the Deal Registration Process.",
+          "Worked as an experienced developer for the `My Sales Activity` Squad, bringing expertise, guidance and mentoring to the less experienced members of the team",
+          "Developed a new Deal Registration Process for Software products using React and IBM's Carbon Design System. It allowed IBM's Business Partners to easily apply for software incentives and register their deals. The likelihood to recommend the product went from a 5.2/10 to a 7.2/10 because we took a design led approach when developing the application and it became easy to use and understand, intuitive and it also saved around 30' of time when using the tool",
+          "Worked on the implementation of the Software Products Eligibility, which were the backbone of the functionality of the new programme, and gave partners a clear line of sight of what they were getting from IBM. This involved building a robust solution that wouldn't slow down the Deal Registration Process",
           "Was involved in the recruitment process"
         ]
       },
       {
         "company": "AnyVan",
         "title": "Software Developer",
-        "years": "Feb 2017 – Nov 2018",
+        "duration": "Feb 2017 – Nov 2018",
         "description": [
           "Worked on the integration with FreshDesk",
           "Led the automated verification of our drivers' VAT Certificates",
@@ -79,7 +80,7 @@
       {
         "company": "WorldStores",
         "title": "Support Developer",
-        "years": "June 2015 – Nov 2016",
+        "duration": "June 2015 – Nov 2016",
         "description": [
           "Provided technical support on PHP & JS (Bug Fix & Development)",
           "Wrote scripts to automate the execution of business repetitive tasks",
@@ -89,17 +90,29 @@
         ]
       }
     ],
-    "skills": {}
-  },
-  "email": "myriam.puchalt@icloud.com",
-  "social": [
-    {
-      "name": "linkedin",
-      "url": "https://www.linkedin.com/in/myriampuchalt/"
+    "skills": {
+      "languages": {
+        "Spanish" : "100",
+        "Italian" : "70",
+        "German" : "60"
+      },
+      "tech" : [
+        "html, css, js, php, mysql",
+        "elasticsearch, kibana",
+        "laravel, react, node",
+        "git, jenkins, travis, github actions",
+        "sonar"
+      ]
     },
-    {
-      "name": "github",
-      "url": "http://github.com/myriampuchaltgisep"
-    }
-  ]
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/myriampuchalt/"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/myriampuchaltgisep"
+      }
+    ]
+  }
 }

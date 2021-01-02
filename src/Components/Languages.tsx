@@ -1,0 +1,55 @@
+import React from "react";
+import PropTypes from "prop-types";
+import Container from "react-bootstrap/Container";
+
+
+interface LanguagesProps {
+  content: any;
+}
+const Languages = ({ content }: LanguagesProps) => {
+  let languageCirles;
+
+  if (content.languages) {
+    languageCirles = Object.entries(content.languages).map(([key, value]) => {
+      const colouredCircle = `${value}, 100`;
+      return (
+        <div className="outer float-left">
+          <svg viewBox="0 0 36 36" className="circular-chart text-white font-weight-bold d-block m-0">
+            <path
+              className="base-circle"
+              d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
+            <path
+              className="coloured-circle"
+              stroke-dasharray={colouredCircle}
+              d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
+            <text x="18" y="20.35" className="percentage">
+            {value}%
+            </text>
+          </svg>
+          <p className="text-white text-sm-center">{key}</p>
+        </div>
+      );
+    });
+  }
+
+  return (
+    <Container id="languages" className="d-inline-block">
+      {languageCirles}
+    </Container>
+  );
+};
+
+Languages.propTypes = {
+  content: PropTypes.string,
+};
+Languages.defaultProps = {
+  content: "",
+};
+
+export default Languages;
