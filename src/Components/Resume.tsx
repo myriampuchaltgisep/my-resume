@@ -51,34 +51,34 @@ const Resume = ({ content }: ResumeProps) => {
   return (
     <Container fluid>
       <Row id="resume">
-        <Col className="float-left" md={3}>
-          <div id="LHSMenu" className="ml-4 h-100">
+        <Col xs={12} md={3} className="section">
+          <Container fluid id="LHSMenu" className="h-100 mt-3">
             <Education content={content.education}></Education>
             <Skills content={content.skills}></Skills>
             <Button
               variant="link"
               onClick={downloadCV}
-              className="ml-5 text-decoration-none float-left"
+              className="ml-5 text-decoration-none float-left font-weight-bold"
             >
               DOWNLOAD CV
               <FontAwesomeIcon icon={faDownload} className="faIcon ml-2" />
             </Button>
-          </div>
+          </Container>
         </Col>
-        <Col md={8}>
-          <div id="experience" className="h-100">
-            <Row className="mb-3">
+        <Col xs={12} md={8} className="section p-0">
+          <Container fluid id="experience" className="h-100 mt-3">
+            <Row className="mb-4">
               <Col>
                 <Description content={content.description}></Description>
               </Col>
             </Row>
             <Experience content={content.experience}></Experience>
-          </div>
+          </Container>
         </Col>
-        <Col md={1}>
-          <div className="h-100 mr-4">
+        <Col xs={{ order: "last" }} md={1} className="section">
+          <Container fluid className="h-100 mt-3">
             <Footer content={content.social}></Footer>
-          </div>
+          </Container>
         </Col>
       </Row>
     </Container>

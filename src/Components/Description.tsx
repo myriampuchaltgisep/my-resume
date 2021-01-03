@@ -16,12 +16,13 @@ const Description = ({ content }: DescriptionProps) => {
   }
 
   return (
-    <div id="description">
-      <Image src={process.env.PUBLIC_URL + "/images/my-emoji.png"} className="my-2 mx-4 float-left"/>
-      <div className="text font-weight-bold py-4">
-        {description}
-      </div>
-    </div>
+    <Container fluid id="description">
+      <Image
+        src={process.env.PUBLIC_URL + "/images/my-emoji.png"}
+        className="my-2 mx-4 float-left"
+      />
+      <Container className="text font-weight-bold p-4">{description}</Container>
+    </Container>
   );
 };
 

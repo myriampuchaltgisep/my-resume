@@ -11,7 +11,10 @@ const Home = ({ content }: HomeProps) => {
   return (
     <Container id="home" fluid>
       <Header content={content.headerSections}></Header>
-      <Image src={process.env.PUBLIC_URL + "/images/me.jpg"} className="mh-100 position-absolute fixed-top"/>
+      <Image
+        src={process.env.PUBLIC_URL + "/images/me.jpg"}
+        className="mh-100 position-absolute fixed-top"
+      />
       <WelcomeMessage content={content}></WelcomeMessage>
     </Container>
   );

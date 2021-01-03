@@ -5,6 +5,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import Home from "./Components/Home";
 import Resume from "./Components/Resume";
 import Footer from './Components/Footer';
+import Container from "react-bootstrap/Container";
+
 
 library.add(fab)
 
@@ -27,10 +29,10 @@ class App extends Component<Props, any> {
   }
   render() {
     return (
-      <div className="App">
+      <Container fluid className="App">
         <Home content={this.state.data.home} />
         <Resume content={this.state.data.resume}></Resume>
-      </div>
+      </Container>
     );
   }
 }

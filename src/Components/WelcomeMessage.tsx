@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+import Container from "react-bootstrap/Container";
 interface WelcomeMessageProps {
   content: any;
 }
@@ -22,9 +22,9 @@ const WelcomeMessage = ({ content }: WelcomeMessageProps) => {
   }
 
   return (
-    <div className="welcome-message text-sm-center">
+    <Container className="welcome-message text-sm-center">
       {welcomeMessage}
-    </div>
+    </Container>
   );
 };
 

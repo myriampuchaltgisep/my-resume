@@ -29,14 +29,23 @@ body {
 .App {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  display: flex;
+  flex-flow: column;
 }
 
 .App::-webkit-scrollbar {
   display: none;
 }
 
+#home,
+#resume {
+  min-height: 100vh;
+  height: 100%;
+}
+
 .welcome-message h2 span,
 #experience .job .duration,
+#education h6,
 #tech .icon {
   color: $green-color;
 }
@@ -49,7 +58,8 @@ body {
 
 #resume,
 #LHSMenu .btn-link,
-footer .social .icon {
+footer .icon,
+footer .rotate {
   color: $text-color;
 }
 
@@ -82,9 +92,10 @@ footer .social .icon {
   font-size: 0.8rem;
 }
 
-
 #resume {
-  margin-top: 15vh;
+  .section {
+    height: 90vh;
+  }
 
   #description {
     letter-spacing: 1px;
@@ -111,8 +122,7 @@ footer .social .icon {
     }
 
     #languages {
-
-      .outer{
+      .outer {
         width: 20%;
       }
 
@@ -140,6 +150,7 @@ footer .social .icon {
   }
 
   #experience {
+    margin: 0 auto;
     .job .duration {
       bottom: 1%;
     }
@@ -149,6 +160,9 @@ footer .social .icon {
   }
 
   footer {
+    > ul {
+      height: 100vh;
+    }
 
     .icon {
       font-size: 2rem;
@@ -156,17 +170,21 @@ footer .social .icon {
 
     .social {
       vertical-align: bottom;
+      > div {
+        margin: 0 auto;
+      }
     }
 
-    .list-group-item{
+    .list-group-item {
       background: none;
     }
 
     .rotate {
+      font-size: large;
       transform: rotate(90deg);
       /* Legacy vendor prefixes that you probably don't need... */
       /* Safari */
-      -webkit-transform: rotate(90deg); 
+      -webkit-transform: rotate(90deg);
       /* Firefox */
       -moz-transform: rotate(90deg);
       /* IE */

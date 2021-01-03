@@ -14,7 +14,7 @@ const Footer = ({ content }: FooterProps) => {
   if (content) {
     socialNetworks = content.map(function (network: any) {
       return (
-        <ListGroup.Item className="d-block border-0">
+        <ListGroup.Item className="d-block border-0 p-0">
           <Button href={network.url} variant="link">
             <FontAwesomeIcon icon={["fab", network.name]} className="icon" />
           </Button>
@@ -24,20 +24,26 @@ const Footer = ({ content }: FooterProps) => {
   }
 
   return (
-    <footer>
-      <ul>
+    <footer className="h-100">
+      <ul className="d-flex flex-column justify-content-between pl-0 mb-0 h-100">
         <ListGroup>
-          <ListGroup.Item className="border-0">
-            <FontAwesomeIcon icon={faBars} className="icon float-right" />
+          <ListGroup.Item action href="#home" className="border-0 d-flex">
+            <FontAwesomeIcon
+              icon={faBars}
+              className="icon float-right m-auto"
+            />
           </ListGroup.Item>
           <ListGroup.Item
-            className="rotate border-0 font-weight-bold"
+            action
             href="#home"
+            className="rotate border-0 mt-4 font-weight-bold text-reset"
           >
             HOME
           </ListGroup.Item>
         </ListGroup>
-        <ListGroup className="social">{socialNetworks}</ListGroup>
+        <ListGroup className="social d-flex flex-column">
+          {socialNetworks}
+        </ListGroup>
       </ul>
     </footer>
   );
