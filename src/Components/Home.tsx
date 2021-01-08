@@ -1,21 +1,28 @@
-import React from "react";
-import Header from "./Header";
-import WelcomeMessage from "./WelcomeMessage";
-import PropTypes from "prop-types";
-import Image from "react-bootstrap/Image";
-import Container from "react-bootstrap/Container";
+import React from 'react';
+import Header from './Header';
+import WelcomeMessage from './WelcomeMessage';
+import PropTypes from 'prop-types';
+import Image from 'react-bootstrap/Image';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 interface HomeProps {
   content: any;
 }
 const Home = ({ content }: HomeProps) => {
   return (
-    <Container id="home" fluid>
-      <Header content={content.headerSections}></Header>
-      <Image
-        src={process.env.PUBLIC_URL + "/images/me.jpg"}
-        className="mh-100 position-absolute fixed-top"
-      />
-      <WelcomeMessage content={content}></WelcomeMessage>
+    <Container fluid id="home">
+      <Row>
+        <Col md={5} className="px-0">
+          <Image src={process.env.PUBLIC_URL + '/images/me.jpg'} className="" />
+        </Col>
+        <Col md={6} className="welcome-message">
+          <WelcomeMessage content={content}></WelcomeMessage>
+        </Col>
+        <Col>
+          <Header content={content.headerSections}></Header>
+        </Col>
+      </Row>
     </Container>
   );
 };

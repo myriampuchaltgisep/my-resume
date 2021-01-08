@@ -22,7 +22,7 @@ const WelcomeMessage = ({ content }: WelcomeMessageProps) => {
   }
 
   return (
-    <Container className="welcome-message text-sm-center">
+    <Container className="text-sm-center">
       {welcomeMessage}
     </Container>
   );

@@ -23,7 +23,7 @@ const Education = ({ content }: EducationProps) => {
   }
 
   return (
-    <Container fluid id="education" className="text-sm-center pt-4">
+    <Container fluid id="education" className="pt-4">
       {education}
     </Container>
   );

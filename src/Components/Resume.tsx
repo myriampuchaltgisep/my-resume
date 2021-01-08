@@ -49,10 +49,10 @@ const Resume = ({ content }: ResumeProps) => {
   };
 
   return (
-    <Container fluid>
-      <Row id="resume">
-        <Col xs={12} md={3} className="section">
-          <Container fluid id="LHSMenu" className="h-100 mt-3">
+    <Container fluid id="resume">
+      <Row>
+        <Col xs={{order: 'last'}} md={3} className="section order-md-first" id="LHSMenu">
+          <Container fluid className="h-100 LHScontainer">
             <Education content={content.education}></Education>
             <Skills content={content.skills}></Skills>
             <Button
@@ -65,7 +65,7 @@ const Resume = ({ content }: ResumeProps) => {
             </Button>
           </Container>
         </Col>
-        <Col xs={12} md={8} className="section p-0">
+        <Col md={8} className="section p-0">
           <Container fluid id="experience" className="h-100 mt-3">
             <Row className="mb-4">
               <Col>
@@ -75,7 +75,7 @@ const Resume = ({ content }: ResumeProps) => {
             <Experience content={content.experience}></Experience>
           </Container>
         </Col>
-        <Col xs={{ order: "last" }} md={1} className="section">
+        <Col md={1} className="section RHSmenu">
           <Container fluid className="h-100 mt-3">
             <Footer content={content.social}></Footer>
           </Container>
