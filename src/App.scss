@@ -75,7 +75,6 @@ footer .rotate {
   }
 
   @include media-breakpoint-up(md) {
-    display: flex;
     align-items: flex-start;
     overflow-y: hidden;
 
@@ -127,7 +126,7 @@ footer .rotate {
     }
 
     @include media-breakpoint-up(md) {
-      margin-top: 20%;
+      margin-top: 35%;
     }
 
     @include media-breakpoint-down(md) {
@@ -223,10 +222,7 @@ footer .rotate {
 
     #education {
       font-size: 0.7em;
-
-      @include media-breakpoint-down(md) {
-        text-align: center;
-      }
+      text-align: center;
     }
 
     #languages {
