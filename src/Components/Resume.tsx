@@ -51,23 +51,23 @@ const Resume = ({ content }: ResumeProps) => {
   return (
     <Container fluid id="resume">
       <Row>
-        <Col xs={{order: 'last'}} md={3} className="section order-md-first" id="LHSMenu">
+        <Col xs={{order: 'last'}} lg={3} className="section order-lg-first" id="LHSMenu">
           <Container fluid className="h-100 LHScontainer">
             <Education content={content.education}></Education>
             <Skills content={content.skills}></Skills>
             <Button
               variant="link"
               onClick={downloadCV}
-              className="ml-5 text-decoration-none float-left font-weight-bold"
+              className="text-decoration-none font-weight-bold"
             >
               DOWNLOAD CV
               <FontAwesomeIcon icon={faDownload} className="faIcon ml-2" />
             </Button>
           </Container>
         </Col>
-        <Col md={8} className="section p-0">
-          <Container fluid id="experience" className="h-100 mt-3">
-            <Row className="mb-4">
+        <Col lg={8} className="section p-0">
+          <Container fluid id="experience">
+            <Row>
               <Col>
                 <Description content={content.description}></Description>
               </Col>
@@ -75,7 +75,7 @@ const Resume = ({ content }: ResumeProps) => {
             <Experience content={content.experience}></Experience>
           </Container>
         </Col>
-        <Col md={1} className="section RHSmenu">
+        <Col lg={1} className="section RHSmenu">
           <Container fluid className="h-100 mt-3">
             <Footer content={content.social}></Footer>
           </Container>

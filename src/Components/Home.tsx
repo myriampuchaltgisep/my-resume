@@ -13,10 +13,10 @@ const Home = ({ content }: HomeProps) => {
   return (
     <Container fluid id="home">
       <Row>
-        <Col md={5} className="px-0">
+        <Col md={7} lg={5} className="px-0">
           <Image src={process.env.PUBLIC_URL + '/images/me.jpg'} className="" />
         </Col>
-        <Col md={6} className="welcome-message">
+        <Col lg={6} className="welcome-message">
           <WelcomeMessage content={content}></WelcomeMessage>
         </Col>
         <Col>

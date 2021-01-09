@@ -14,7 +14,7 @@ const Tech = ({ content }: TechProps) => {
     skills = content.tech.map(function (skill: any) {
       return (
         <>
-          <p className="font-weight-bold text-sm-left skill">
+          <p className="font-weight-bold text-lg-left skill">
             <FontAwesomeIcon icon={faCheck} className="icon mr-2" />
             {skill}
           </p>

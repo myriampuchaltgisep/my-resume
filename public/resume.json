@@ -97,11 +97,11 @@
         "German" : "60"
       },
       "tech" : [
-        "html, css, js, php, mysql",
+        "html 5, css, bootstrap",
+        "js, react, node, jest",
+        "php, laravel, mysql",
         "elasticsearch, kibana",
-        "laravel, react, node",
-        "git, jenkins, travis, github actions",
-        "sonar"
+        "git, jenkins, travis, github actions"
       ]
     },
     "social": [

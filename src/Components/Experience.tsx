@@ -45,13 +45,13 @@ const Experience = ({ content }: ExperienceProps) => {
 
   return (
     <>
-      <Row>
-        <Col className="mb-4" md={6}>{getJobExperience(content[0])}</Col>
-        <Col className="mb-4" md={6}>{getJobExperience(content[1])}</Col>
+      <Row className="experience-row">
+        <Col md={6}>{getJobExperience(content[0])}</Col>
+        <Col md={6}>{getJobExperience(content[1])}</Col>
       </Row>
       <Row>
-        <Col className="mb-4" md={6}>{getJobExperience(content[2])}</Col>
-        <Col className="mb-4" md={6}>{getJobExperience(content[3])}</Col>
+        <Col md={6}>{getJobExperience(content[2])}</Col>
+        <Col className="last-job" md={6}>{getJobExperience(content[3])}</Col>
       </Row>
     </>
   );
