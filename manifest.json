@@ -1,6 +1,6 @@
 {
-  "short_name": "Myriam's Resume",
-  "name": "Myriam's Resume",
+  "short_name": "Myriams Resume",
+  "name": "Myriams Resume",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
