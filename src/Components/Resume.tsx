@@ -58,7 +58,7 @@ const Resume = ({ content }: ResumeProps) => {
             <Button
               variant="link"
               onClick={downloadCV}
-              className="text-decoration-none font-weight-bold"
+              className="text-decoration-none font-weight-bold pt-0 pb-3"
             >
               DOWNLOAD CV
               <FontAwesomeIcon icon={faDownload} className="faIcon ml-2" />
@@ -67,7 +67,7 @@ const Resume = ({ content }: ResumeProps) => {
         </Col>
         <Col lg={8} className="section p-0">
           <Container fluid id="experience">
-            <Row>
+            <Row className="description">
               <Col>
                 <Description content={content.description}></Description>
               </Col>

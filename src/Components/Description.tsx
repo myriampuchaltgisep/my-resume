@@ -19,7 +19,7 @@ const Description = ({ content }: DescriptionProps) => {
     <Container fluid id="description">
       <Image
         src={process.env.PUBLIC_URL + "/images/my-emoji.png"}
-        className="my-2 mx-4 float-left"
+        className="my-2 ml-2"
       />
       <Container className="text p-4">{description}</Container>
     </Container>

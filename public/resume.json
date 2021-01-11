@@ -12,9 +12,10 @@
   },
   "resume": {
     "description": [
-      "A fast learning, competent person able to solve problems. Very organised, able to multi-task and also great at time management.",
-      "Hard-working, with the ability to work with a high degree of autonomy but also in a team environment.",
-      "With a passion to learn, motivated, self-confident and with great communication skills."
+      "Hard-working leader with 5+ years of experience in tech environments.",
+      "Strong believer in teamwork and integrity as the basis for success.",
+      "Not only a multi-tasker who thrives in fast-paced environments but a team player dedicated to help solving problems.",
+      "Motivated and committed to make a real success of a career in tech, I'm a capable professional that constantly improves her skills in order to reach larger goals."
     ],
     "education": [
       {
@@ -102,6 +103,16 @@
         "php, laravel, mysql",
         "elasticsearch, kibana",
         "git, jenkins, travis, github actions"
+      ],
+      "soft" : [
+        "Good Communication, Empathy",
+        "Motivate, Inspire & Empower others",
+        "Ability to delegate, Learning agility",
+        "Self-awareness, Time management",
+        "Believe in my team, Teamwork",
+        "Positivism, Strong charisma",
+        "Make the complex simple, Courage",
+        "Problem-Solving, Integrity"
       ]
     },
     "social": [

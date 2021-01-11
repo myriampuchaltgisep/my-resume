@@ -13,7 +13,7 @@ const Education = ({ content }: EducationProps) => {
       return (
         <>
           <h6 className="font-weight-bold">{line.duration}</h6>
-          <p className="text-uppercase">{line.degree}</p>
+          <p className="text-uppercase font-weight-bold">{line.degree}</p>
           <p>
             <em>{line.school}</em>
           </p>
