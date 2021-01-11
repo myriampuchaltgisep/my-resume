@@ -1,0 +1,129 @@
+{
+  "home": {
+    "name": "Myriam Puchalt",
+    "email": "myriam.puchalt@icloud.com",
+    "welcome": [
+      "Hello, I'm",
+      "a full stack Web Developer based in London"
+    ],
+    "headerSections" : {
+      "resume": "Resume"
+    }
+  },
+  "resume": {
+    "description": [
+      "Hard-working leader with 5+ years of experience in tech environments.",
+      "Strong believer in teamwork and integrity as the basis for success.",
+      "Not only a multi-tasker who thrives in fast-paced environments but a team player dedicated to help solving problems.",
+      "Motivated and committed to make a real success of a career in tech, I'm a capable professional that constantly improves her skills in order to reach larger goals."
+    ],
+    "education": [
+      {
+        "school": "Polytechnic University. Valencia, Spain",
+        "degree": "Beng.,Web Development",
+        "duration": "2013-2016"
+      },
+      {
+        "school": "EFEM. Valencia, Spain",
+        "degree": "Msc., SMES Administration",
+        "duration": "2012-2013"
+      },
+      {
+        "school": "Fachhochschule. Düsseldorf,Germany",
+        "degree": "Beng.,Kommunicationsdesign",
+        "duration": "2011-2012"
+      },
+      {
+        "school": "Polytechnic University. Valencia, Spain",
+        "degree": "Beng.,Industrial Design",
+        "duration": "2008-2011"
+      }
+    ],
+    "experience": [
+      {
+        "company": "IBM",
+        "title": "Lead Developer",
+        "duration": "April 2020 - Present",
+        "description": [
+          "Led the IBMid Migration from IDaaS to IBM Cloud Identity, which involved replacing the underlying authentication service component of IBMid, IDaaS, by the commercial service: Cloud Identity. I managed the technical work, coordinated with teams in Mexico and India and deployed the changes without issues",
+          "Led the transition into London of an old .NET project that triggered PagerDuty Alerts nearly every day. After 2 month of owning the project the errors got reduced by a 95%, saving development time and leaving only external dependencies as the main trigger for alerts",
+          "Trained to become a Software `Craftwoman` and advised others how to deliver good work, focusing on DDD, CI/CD best practices and Extreme Programming values, principles and practices",
+          "Introduced Spotify Squad Health Check to the team and analysed 11 dimensions, improving the Squad Health by a 40% in only 4 months",
+          "Created an efficient Squad, led by trust, transparency and hard work, where people felt safe to speak up and where team work is the main core value"
+        ]
+      },
+      {
+        "company": "IBM",
+        "title": "Full Stack Software Developer",
+        "duration": "Nov 2018 – April 2020",
+        "description": [
+          "Worked as an experienced developer for the `My Sales Activity` Squad, bringing expertise, guidance and mentoring to the less experienced members of the team",
+          "Developed a new Deal Registration Process for Software products using React and IBM's Carbon Design System. It allowed IBM's Business Partners to easily apply for software incentives and register their deals. The likelihood to recommend the product went from a 5.2/10 to a 7.2/10 because we took a design led approach when developing the application and it became easy to use and understand, intuitive and it also saved around 30' of time when using the tool",
+          "Worked on the implementation of the Software Products Eligibility, which were the backbone of the functionality of the new programme, and gave partners a clear line of sight of what they were getting from IBM. This involved building a robust solution that wouldn't slow down the Deal Registration Process",
+          "Was involved in the recruitment process"
+        ]
+      },
+      {
+        "company": "AnyVan",
+        "title": "Software Developer",
+        "duration": "Feb 2017 – Nov 2018",
+        "description": [
+          "Worked on the integration with FreshDesk",
+          "Led the automated verification of our drivers' VAT Certificates",
+          "Built an internal Search Engine using Elasticsearch, PHP and AngularJS",
+          "Developed an internal platform for our drivers to upload their driving documents",
+          "Identified major IT issues and resolved them, saving 20h of support each week",
+          "Analysed the existing work-flow of our internal system to identify and implement operational improvements",
+          "Documented features and generated reports for stakeholders",
+          "Ensured business' expectations were met at every stage"
+        ]
+      },
+      {
+        "company": "WorldStores",
+        "title": "Support Developer",
+        "duration": "June 2015 – Nov 2016",
+        "description": [
+          "Provided technical support on PHP & JS (Bug Fix & Development)",
+          "Wrote scripts to automate the execution of business repetitive tasks",
+          "Worked alongside the marketing team generating quality data feeds for Google Merchant Center",
+          "Created documentation for new starters, reducing the investigation time",
+          "Managed tasks among the team, making sure deadlines were met"
+        ]
+      }
+    ],
+    "skills": {
+      "languages": {
+        "Spanish" : "100",
+        "Italian" : "70",
+        "German" : "60"
+      },
+      "tech" : [
+        "html 5, css, bootstrap",
+        "js, react, node, jest",
+        "php, laravel, mysql",
+        "elasticsearch, kibana",
+        "git, jenkins, travis, github actions"
+      ],
+      "soft" : [
+        "Good Communication, Empathy",
+        "Motivate, Inspire & Empower others",
+        "Ability to delegate, Learning agility",
+        "Self-awareness, Time management",
+        "Believe in my team, Teamwork",
+        "Positivism, Strong charisma",
+        "Make the complex simple, Courage",
+        "Problem-Solving, Integrity"
+      ]
+    },
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/myriampuchalt/"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/myriampuchaltgisep"
+      }
+    ]
+  }
+}
