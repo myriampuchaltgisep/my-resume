@@ -4,9 +4,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 
 import Home from "./Components/Home";
 import Resume from "./Components/Resume";
-import Footer from './Components/Footer';
 import Container from "react-bootstrap/Container";
-
 
 library.add(fab)
 
