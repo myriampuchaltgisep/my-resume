@@ -33,7 +33,7 @@ const Tech = ({ content }: TechProps) => {
   }
 
   return (
-    <Container id="tech">
+    <Container id="tech" className="px-0">
       <p>{skills}</p>
       <p>{techStack}</p>
     </Container>

@@ -12,10 +12,8 @@ interface HomeProps {
 const Home = ({ content }: HomeProps) => {
   return (
     <Container fluid id="home">
-      <Row>
-        <Col md={7} lg={5} className="px-0">
-          <Image src={process.env.PUBLIC_URL + '/images/me.jpg'} className="" />
-        </Col>
+      <Row className="h-100">
+        <Col md={7} lg={5} className="px-0 profilePicture"></Col>
         <Col lg={6} className="welcome-message">
           <WelcomeMessage content={content}></WelcomeMessage>
         </Col>

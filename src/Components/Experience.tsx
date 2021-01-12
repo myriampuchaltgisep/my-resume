@@ -31,7 +31,7 @@ const Experience = ({ content }: ExperienceProps) => {
 
     return (
       <Container className="job h-100 p-4 mb-4" key={job.title}>
-        <h5 className="text-white text-sm-left" >
+        <h5 className="text-white text-sm-left">
           {job.title}
         </h5>
         <h6 className="text-white">{job.company}</h6>

@@ -21,7 +21,12 @@ class App extends Component<Props, any> {
     this.getResume();
   }
   async getResume() {
-    fetch("resume.json")
+    fetch("resume.json", {
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    })
       .then((res) => res.json())
       .then((data) => this.setState({ data }));
   }
