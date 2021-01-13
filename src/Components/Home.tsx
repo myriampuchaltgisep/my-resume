@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './Header';
 import WelcomeMessage from './WelcomeMessage';
 import PropTypes from 'prop-types';
-import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
