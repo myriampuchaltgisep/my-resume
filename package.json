@@ -26,10 +26,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "webpack-dev": "webpack --mode development",
-    "webpack-start": "webpack serve --open 'Firefox'",
-    "webpack-build": "webpack --mode production",
-    "browsersync": "browser-sync start --proxy 'http://localhost:8080' --files './assets/**/*.css,./*.html,./assets/**/*.js'"
+    "browsersync": "browser-sync start --proxy 'http://localhost:3000' --files './assets/**/*.css,./*.html,./assets/**/*.js'"
   },
   "eslintConfig": {
     "extends": [
