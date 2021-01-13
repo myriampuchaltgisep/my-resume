@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-resume/static/css/main.70c848af.chunk.css",
+    "main.css": "/my-resume/static/css/main.af9d0661.chunk.css",
     "main.js": "/my-resume/static/js/main.1e33cc85.chunk.js",
     "main.js.map": "/my-resume/static/js/main.1e33cc85.chunk.js.map",
     "runtime-main.js": "/my-resume/static/js/runtime-main.40771836.js",
@@ -8,14 +8,14 @@
     "static/js/2.83001e35.chunk.js": "/my-resume/static/js/2.83001e35.chunk.js",
     "static/js/2.83001e35.chunk.js.map": "/my-resume/static/js/2.83001e35.chunk.js.map",
     "index.html": "/my-resume/index.html",
-    "static/css/main.70c848af.chunk.css.map": "/my-resume/static/css/main.70c848af.chunk.css.map",
+    "static/css/main.af9d0661.chunk.css.map": "/my-resume/static/css/main.af9d0661.chunk.css.map",
     "static/js/2.83001e35.chunk.js.LICENSE.txt": "/my-resume/static/js/2.83001e35.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/my-resume/static/media/me3.16309b08.jpg"
+    "static/media/App.scss": "/my-resume/static/media/me3.cf6c97da.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.40771836.js",
     "static/js/2.83001e35.chunk.js",
-    "static/css/main.70c848af.chunk.css",
+    "static/css/main.af9d0661.chunk.css",
     "static/js/main.1e33cc85.chunk.js"
   ]
 }
