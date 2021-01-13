@@ -21,7 +21,7 @@ const Header = ({ content }: HeaderProps) => {
 
   return (
     <header>
-      <Navbar id="nav-wrap" expand="lg" className="pt-5 px-0">
+      <Navbar id="nav-wrap" expand="lg" className="px-0">
         <Navbar.Toggle aria-controls="navbar" />
         <Navbar.Collapse id="navbar">
           <Nav id="nav" className="mr-auto">

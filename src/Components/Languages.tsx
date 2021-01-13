@@ -12,7 +12,7 @@ const Languages = ({ content }: LanguagesProps) => {
     languageCirles = Object.entries(content.languages).map(([key, value]) => {
       const colouredCircle = `${value}, 100`;
       return (
-        <Container className="outer m-2 p-0">
+        <Container className="outer p-0">
           <svg
             viewBox="0 0 36 36"
             className="circular-chart text-white font-weight-bold d-block m-0"

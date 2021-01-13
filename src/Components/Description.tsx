@@ -21,7 +21,7 @@ const Description = ({ content }: DescriptionProps) => {
         src={process.env.PUBLIC_URL + "/images/my-emoji.png"}
         className="my-2 ml-2"
       />
-      <Container className="text p-4">{description}</Container>
+      <Container className="text py-4">{description}</Container>
     </Container>
   );
 };
